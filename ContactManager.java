@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class ContactManager {
 
-    private ArrayList<Contact> contacts;
-    private Scanner scanner;
+    private final ArrayList<Contact> contacts;
+    private final Scanner scanner;
 
     public ContactManager() {
         contacts = new ArrayList<>();
